@@ -1,0 +1,39 @@
+/* LandingPage.css */
+
+.container {
+    padding: 20px;
+  }
+  
+  .fancy-text {
+    font-family: 'Cursive', sans-serif;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      text-align: center;
+    }
+  
+    .img-fluid {
+      margin-bottom: 20px;
+    }
+  
+    .fancy-text {
+      font-size: 2rem;
+    }
+  
+    .lead {
+      font-size: 1rem;
+    }
+  
+    .btn {
+      width: 100%;
+      margin-top: 10px;
+      block-size: auto;
+    }
+  }
+  

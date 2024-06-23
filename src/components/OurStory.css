@@ -1,0 +1,78 @@
+/* OurStory.css */
+
+/* Fancy text style for the main heading */
+.fancy-text {
+    color: #4caf50;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Mission text style */
+  .mission-text {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Quality text style */
+  .quality-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  /* Image styles */
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 1260px; 
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  /* Row styles */
+  .row {
+    margin-bottom: 30px; /* Add spacing between rows */
+  }
+  
+  /* Text centering */
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Spacing utility */
+  .my-5 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  
+  /* Heading styles */
+  .display-4 {
+    font-size: 2.5rem; /* Adjust heading font size */
+    font-weight: bold; /* Bold font weight */
+    margin-bottom: 1rem; /* Add spacing below heading */
+  }
+  
+  /* Lead paragraph styles */
+  .lead {
+    font-size: 1.25rem; /* Adjust lead font size */
+    color: #777; /* Lighter text color */
+  }
+  
+  /* Medium screen size breakpoint */
+  @media (max-width: 767px) {
+    .container {
+      padding: 0 15px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .display-4 {
+      font-size: 2rem;
+    }
+    .lead {
+      font-size: 1.1rem;
+    }
+  }

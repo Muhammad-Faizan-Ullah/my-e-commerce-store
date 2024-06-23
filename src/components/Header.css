@@ -1,0 +1,7 @@
+.header {
+  background: linear-gradient(45deg, #FFD700 0%, #FF6347 99%, #FF6347 100%);
+  color: #ffffff;
+  padding: 10px; /* Adjust padding as needed */
+  text-align: center;
+  margin: 0 0 0 0; /* Set margin to 0 */
+}
